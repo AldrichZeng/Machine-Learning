@@ -9,14 +9,14 @@ express permission.
 
 from __future__ import print_function
 
-from music21 import *
+from Course5Week1.music21 import *
 from collections import defaultdict, OrderedDict
 from itertools import groupby, zip_longest
 
-from grammar import *
+from Course5Week1.grammar import *
 
-from grammar import parse_melody
-from music_utils import *
+from Course5Week1.grammar import parse_melody
+from Course5Week1.music_utils import *
 
 #----------------------------HELPER FUNCTIONS----------------------------------#
 

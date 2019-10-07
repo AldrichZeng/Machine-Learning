@@ -7,9 +7,9 @@ Works by playing each file and using the stereo mix device to record at the same
 """
 
 
-import pyaudio  # audio recording
+import Course5Week1.pyaudio  # audio recording
 import wave     # file saving
-import pygame   # midi playback
+import Course5Week1.pygame   # midi playback
 import fnmatch  # name matching
 import os       # file listing
 

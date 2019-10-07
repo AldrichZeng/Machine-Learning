@@ -9,7 +9,7 @@ with express permission.
 from itertools import zip_longest
 import random
 
-from music21 import *
+from Course5Week1.music21 import *
 
 #----------------------------HELPER FUNCTIONS----------------------------------#
 
