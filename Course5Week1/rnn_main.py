@@ -38,7 +38,7 @@ def rnn_cell_forward(xt, a_prev, parameters):
     cache = (a_next, a_prev, xt, parameters)
 
     return a_next, yt_pred, cache
-if False:
+if True:
     np.random.seed(1)
     xt = np.random.randn(3, 10)
     a_prev = np.random.randn(5, 10)
@@ -109,7 +109,7 @@ def rnn_forward(x, a0, parameters):
 
     return a, y_pred, caches
 
-if False:
+if True:
     np.random.seed(1)
     x = np.random.randn(3, 10, 4)
     a0 = np.random.randn(5, 10)
@@ -121,6 +121,7 @@ if False:
     parameters = {"Waa": Waa, "Wax": Wax, "Wya": Wya, "ba": ba, "by": by}
 
     a, y_pred, caches = rnn_forward(x, a0, parameters)
+
     print("a[4][1] = ", a[4][1])
     print("a.shape = ", a.shape)
     print("y_pred[1][3] =", y_pred[1][3])
