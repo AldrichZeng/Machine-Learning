@@ -3,12 +3,11 @@ import tensorflow as tf
 import keras.backend as K
 from keras.layers import RepeatVector
 import sys
-from music21 import *
+from Course5Week1.music21 import *
 import numpy as np
-from grammar import *
-from preprocess import *
-from qa import *
-
+from Course5Week1.grammar import *
+from Course5Week1.preprocess import *
+from Course5Week1.qa import *
 
 def data_processing(corpus, values_indices, m = 60, Tx = 30):
     # cut the corpus into semi-redundant sequences of Tx values
