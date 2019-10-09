@@ -9,7 +9,7 @@ https://github.com/evancchow/jazzml,with permission.
 
 from collections import OrderedDict, defaultdict
 from itertools import groupby
-from music21 import *
+from Course5Week1.music21 import *
 import copy, random, pdb
 
 #from preprocess import *

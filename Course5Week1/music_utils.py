@@ -9,6 +9,7 @@ from Course5Week1.grammar import *
 from Course5Week1.preprocess import *
 from Course5Week1.qa import *
 
+
 def data_processing(corpus, values_indices, m = 60, Tx = 30):
     # cut the corpus into semi-redundant sequences of Tx values
     Tx = Tx 
