@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806ba997-bcef-421d-8868-d1a996588ed5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Course5Week1/.idea/Course5Week1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course5Week1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course5Week1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course5Week1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course5Week1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course5Week1/lstm_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course5Week1/rnn_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course5Week1/rnn_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course5Week1/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course5Week1/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +24,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/rnn_main.py">
+        <entry file="file://$PROJECT_DIR$/Course5Week1/dinos.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="3043">
+              <caret line="1358" column="9" selection-start-line="1358" selection-start-column="9" selection-end-line="1358" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Course5Week1/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3276">
+              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -25,46 +45,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/preprocess.py">
+        <entry file="file://$PROJECT_DIR$/Course5Week1/Shakespeare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="276">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Course4Week4/inception_blocks_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
-                <element signature="e#199#236#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/lstm_main.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Course4Week4/main.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/qa.py">
+        <entry file="file://$PROJECT_DIR$/../Course4Week4/fr_utils.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Course4Week4/FaceRecognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="-1007">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/rnn_utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/shakespeare.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="379" column="32" selection-start-line="379" selection-start-column="28" selection-end-line="379" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Course5Week1/shakespeare_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="144">
+              <caret line="131" column="18" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="18" />
               <folding>
                 <element signature="e#16#53#0" expanded="true" />
               </folding>
@@ -73,20 +108,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/dinos.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/cllm_utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course5Week1/data_utils.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/saving.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="-643">
+              <caret line="243" column="19" selection-start-line="243" selection-start-column="19" selection-end-line="243" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -114,6 +139,8 @@
       <find>decent22</find>
       <find>flop_original_net</find>
       <find>decent</find>
+      <find>triplet_loss</find>
+      <find>loss</find>
     </findStrings>
     <dirStrings>
       <dir>E:\PythonWorkspace\MachineLearning</dir>
@@ -158,14 +185,18 @@
         <option value="$PROJECT_DIR$/Course5Week1/music_utils.py" />
         <option value="$PROJECT_DIR$/Course5Week1/preprocess.py" />
         <option value="$PROJECT_DIR$/Course5Week1/qa.py" />
+        <option value="$PROJECT_DIR$/Course5Week1/rnn_main.py" />
         <option value="$PROJECT_DIR$/Course5Week1/lstm_main.py" />
+        <option value="$PROJECT_DIR$/Course5Week1/test.py" />
+        <option value="$PROJECT_DIR$/Course5Week1/Shakespeare.py" />
+        <option value="$PROJECT_DIR$/../Course4Week4/FaceRecognition.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="819" />
+    <option name="width" value="820" />
     <option name="height" value="570" />
   </component>
   <component name="ProjectView">
@@ -178,12 +209,11 @@
           <expand>
             <path>
               <item name="MachineLearning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="E:\PythonWorkspace\MachineLearning" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="E:\PythonWorkspace\Course4Week4" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
               <item name="MachineLearning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="E:\PythonWorkspace\MachineLearning" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Course5Week1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Course4Week4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -229,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Decision Tree">
+  <component name="RunManager" selected="Python.FaceRecognition">
     <configuration name="Decision Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,7 +282,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FaceRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Course4Week4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Course4Week4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Course4Week4/FaceRecognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Shakespeare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,12 +312,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdaBoost" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Course5Week1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdaBoost/adaboost.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Course5Week1/Shakespeare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,20 +326,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prune_and_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Exercise" />
+    <configuration name="lstm_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Course5Week1" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Exercise/prune_and_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Course5Week1/lstm_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,42 +348,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_zengyao (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Exercise" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Course5Week1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Exercise/run_zengyao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Exercise" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Exercise/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Course5Week1/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,11 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FaceRecognition" />
+        <item itemvalue="Python.Shakespeare" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.lstm_main" />
         <item itemvalue="Python.Decision Tree" />
-        <item itemvalue="Python.prune_and_train" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.run_zengyao (1)" />
-        <item itemvalue="Python.adaboost" />
       </list>
     </recent_temporary>
   </component>
@@ -369,29 +399,31 @@
       <workItem from="1570439126664" duration="2641000" />
       <workItem from="1570596359851" duration="186000" />
       <workItem from="1570612194911" duration="1828000" />
+      <workItem from="1570699969533" duration="525000" />
+      <workItem from="1570936021820" duration="11551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6771000" />
+    <option name="totallyTimeSpent" value="18847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66959065" visible="true" weight="0.22050938" />
-      <window_info id="Structure" order="1" sideWeight="0.33040935" side_tool="true" visible="true" weight="0.22050938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66450214" visible="true" weight="0.22855228" />
+      <window_info id="Structure" order="1" sideWeight="0.33549783" side_tool="true" visible="true" weight="0.22855228" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4246795" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44163266" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32456142" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37280703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972136" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32972136" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -430,17 +462,19 @@
           <line>1</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Course5Week1/test.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="replace_module" language="Python" />
-        <watch expression="new_conv" language="Python" />
-        <watch expression="tmp" language="Python" />
-        <watch expression="tmp" language="Python" />
-        <watch expression="tmp" language="Python" />
-      </configuration>
-    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MachineLearning$Shakespeare.coverage" NAME="Shakespeare Coverage Results" MODIFIED="1570953506875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Course5Week1" />
+    <SUITE FILE_PATH="coverage/MachineLearning$FaceRecognition.coverage" NAME="FaceRecognition Coverage Results" MODIFIED="1570959475775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Course4Week4" />
+    <SUITE FILE_PATH="coverage/MachineLearning$lstm_main.coverage" NAME="lstm_main Coverage Results" MODIFIED="1570938494503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Course5Week1" />
+    <SUITE FILE_PATH="coverage/MachineLearning$test.coverage" NAME="test Coverage Results" MODIFIED="1570951606718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Course5Week1" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -492,29 +526,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.conda/envs/torch/lib/python3.6/site-packages/numpy/core/numeric.py" />
-    <entry file="file://$PROJECT_DIR$/AdaBoost/adaboost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1534">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Exercise/vgg_cifar10.py" />
-    <entry file="file://$PROJECT_DIR$/../model_pytorch/predict_dead_filter.py" />
-    <entry file="file://$PROJECT_DIR$/../model_pytorch/prune_and_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="195" column="65" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../model_pytorch/prune_resnet.py" />
-    <entry file="file://$PROJECT_DIR$/../Exercise/train.py" />
-    <entry file="file://$PROJECT_DIR$/../Exercise/generate_random_data.py" />
-    <entry file="file://$PROJECT_DIR$/../Exercise/cifar10_statistics.py" />
-    <entry file="file://$USER_HOME$/.conda/envs/torch/lib/python3.6/site-packages/torch/serialization.py" />
-    <entry file="file://$USER_HOME$/.conda/envs/torch/lib/python3.6/site-packages/torch/nn/modules/conv.py" />
     <entry file="file://$PROJECT_DIR$/../Exercise/measure_flops.py" />
     <entry file="file://$PROJECT_DIR$/../Exercise/evaluate.py" />
     <entry file="file://$PROJECT_DIR$/../Exercise/prune_resnet.py" />
@@ -621,6 +632,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Course5Week1/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#199#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Course5Week1/qa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -628,57 +649,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Course5Week1/rnn_utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Course5Week1/shakespeare.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Course5Week1/shakespeare_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#16#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Course5Week1/dinos.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Course5Week1/cllm_utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Course5Week1/data_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Course5Week1/rnn_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="454">
+          <caret line="230" column="20" selection-start-line="230" selection-start-column="20" selection-end-line="230" selection-end-column="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Course5Week1/preprocess.py">
+    <entry file="file://$PROJECT_DIR$/Course5Week1/rnn_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="147" column="31" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course5Week1/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1121">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="23" />
           <folding>
-            <element signature="e#199#236#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Course5Week1/lstm_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4454">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course5Week1/cllm_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course5Week1/dinos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="1358" column="9" selection-start-line="1358" selection-start-column="9" selection-end-line="1358" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/callbacks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23883">
+          <caret line="1277" column="8" selection-start-line="1277" selection-start-column="8" selection-end-line="1277" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course5Week1/shakespeare_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="131" column="18" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="18" />
+          <folding>
+            <element signature="e#16#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/saving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-643">
+          <caret line="243" column="19" selection-start-line="243" selection-start-column="19" selection-end-line="243" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course5Week1/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3276">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Course4Week4/FRmodel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course5Week1/Shakespeare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Course4Week4/inception_blocks_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Course4Week4/main.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Course4Week4/fr_utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="379" column="32" selection-start-line="379" selection-start-column="28" selection-end-line="379" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Course4Week4/FaceRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1007">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -38,7 +38,7 @@ def rnn_cell_forward(xt, a_prev, parameters):
     cache = (a_next, a_prev, xt, parameters)
 
     return a_next, yt_pred, cache
-if False:
+if True:
     np.random.seed(1)
     xt = np.random.randn(3, 10)
     a_prev = np.random.randn(5, 10)
@@ -109,7 +109,7 @@ def rnn_forward(x, a0, parameters):
 
     return a, y_pred, caches
 
-if False:
+if True:
     np.random.seed(1)
     x = np.random.randn(3, 10, 4)
     a0 = np.random.randn(5, 10)
@@ -121,9 +121,111 @@ if False:
     parameters = {"Waa": Waa, "Wax": Wax, "Wya": Wya, "ba": ba, "by": by}
 
     a, y_pred, caches = rnn_forward(x, a0, parameters)
+
     print("a[4][1] = ", a[4][1])
     print("a.shape = ", a.shape)
     print("y_pred[1][3] =", y_pred[1][3])
     print("y_pred.shape = ", y_pred.shape)
     print("caches[1][1][3] =", caches[1][1][3])
     print("len(caches) = ", len(caches))
+
+def rnn_cell_backward(da_next, cache):
+    """
+    实现基本的RNN单元的单步反向传播
+
+    参数：
+        da_next -- 关于下一个隐藏状态的损失的梯度。
+        cache -- 字典类型，rnn_step_forward()的输出
+
+    返回：
+        gradients -- 字典，包含了以下参数：
+                        dx -- 输入数据的梯度，维度为(n_x, m)
+                        da_prev -- 上一隐藏层的隐藏状态，维度为(n_a, m)
+                        dWax -- 输入到隐藏状态的权重的梯度，维度为(n_a, n_x)
+                        dWaa -- 隐藏状态到隐藏状态的权重的梯度，维度为(n_a, n_a)
+                        dba -- 偏置向量的梯度，维度为(n_a, 1)
+    """
+    # 获取cache 的值
+    a_next, a_prev, xt, parameters = cache
+
+    # 从 parameters 中获取参数
+    Wax = parameters["Wax"]
+    Waa = parameters["Waa"]
+    Wya = parameters["Wya"]
+    ba = parameters["ba"]
+    by = parameters["by"]
+
+    # 计算tanh相对于a_next的梯度.
+    dtanh = (1 - np.square(a_next)) * da_next
+
+    # 计算关于Wax损失的梯度
+    dxt = np.dot(Wax.T, dtanh)
+    dWax = np.dot(dtanh, xt.T)
+
+    # 计算关于Waa损失的梯度
+    da_prev = np.dot(Waa.T, dtanh)
+    dWaa = np.dot(dtanh, a_prev.T)
+
+    # 计算关于b损失的梯度
+    dba = np.sum(dtanh, keepdims=True, axis=-1)
+
+    # 保存这些梯度到字典内
+    gradients = {"dxt": dxt, "da_prev": da_prev, "dWax": dWax, "dWaa": dWaa, "dba": dba}
+
+    return gradients
+
+
+def rnn_backward(da, caches):
+    """
+    在整个输入数据序列上实现RNN的反向传播
+
+    参数：
+        da -- 所有隐藏状态的梯度，维度为(n_a, m, T_x)
+        caches -- 包含向前传播的信息的元组
+
+    返回：
+        gradients -- 包含了梯度的字典：
+                        dx -- 关于输入数据的梯度，维度为(n_x, m, T_x)
+                        da0 -- 关于初始化隐藏状态的梯度，维度为(n_a, m)
+                        dWax -- 关于输入权重的梯度，维度为(n_a, n_x)
+                        dWaa -- 关于隐藏状态的权值的梯度，维度为(n_a, n_a)
+                        dba -- 关于偏置的梯度，维度为(n_a, 1)
+    """
+    # 从caches中获取第一个cache（t=1）的值
+    caches, x = caches
+    a1, a0, x1, parameters = caches[0]
+
+    # 获取da与x1的维度信息
+    n_a, m, T_x = da.shape
+    n_x, m = x1.shape
+
+    # 初始化梯度
+    dx = np.zeros([n_x, m, T_x])
+    dWax = np.zeros([n_a, n_x])
+    dWaa = np.zeros([n_a, n_a])
+    dba = np.zeros([n_a, 1])
+    da0 = np.zeros([n_a, m])
+    da_prevt = np.zeros([n_a, m])
+
+    # 处理所有时间步
+    for t in reversed(range(T_x)):
+        # 计算时间步“t”时的梯度
+        gradients = rnn_cell_backward(da[:, :, t] + da_prevt, caches[t])
+
+        # 从梯度中获取导数
+        dxt, da_prevt, dWaxt, dWaat, dbat = gradients["dxt"], gradients["da_prev"], gradients["dWax"], gradients[
+            "dWaa"], gradients["dba"]
+
+        # 通过在时间步t添加它们的导数来增加关于全局导数的参数
+        dx[:, :, t] = dxt
+        dWax += dWaxt
+        dWaa += dWaat
+        dba += dbat
+
+    # 将 da0设置为a的梯度，该梯度已通过所有时间步骤进行反向传播
+    da0 = da_prevt
+
+    # 保存这些梯度到字典内
+    gradients = {"dx": dx, "da0": da0, "dWax": dWax, "dWaa": dWaa, "dba": dba}
+
+    return gradients
